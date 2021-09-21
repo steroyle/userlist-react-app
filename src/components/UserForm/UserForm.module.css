@@ -1,0 +1,24 @@
+.form {
+  margin-top: 40px;
+}
+
+.form__control {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__control.invalid input {
+  border-color: rgb(201, 1, 1);
+  background: rgb(255, 208, 208);
+}
+
+.label {
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.input--text {
+  border: 1px solid #ededed;
+  padding: 10px 15px;
+}
