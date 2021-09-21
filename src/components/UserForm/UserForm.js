@@ -24,14 +24,14 @@ const UserForm = (props) => {
     //validation
     if (username.trim().length === 0) {
       setError({
-        title: 'Invaid Input',
+        title: 'Invalid Input',
         message: 'Please enter a valid name and age (non-empty values).'
       })
       return;
     }
     if (+age < 1 || age.length === 0) {
       setError({
-        title: 'Invaid age',
+        title: 'Invalid age',
         message: 'Please enter a valid age (> 0).'
       })
       return;
