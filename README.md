@@ -1,7 +1,8 @@
 # Userlist React App
 
 ## Live Demo
-[https://userlist-react-app.netlify.app](https://weather-api-react-app.netlify.app)
+
+[https://userlist-react-app.netlify.app](https://userlist-react-app.netlify.app)
 
 ## Built using
 
@@ -12,11 +13,13 @@
 Clone this repo
 
 Install packages and dependencies
+
 ```
 npm install
 ```
 
 Run the app
+
 ```
 npm start
 ```
